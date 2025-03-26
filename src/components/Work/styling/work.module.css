@@ -1,0 +1,17 @@
+@media (max-width: 770px) {
+  .laptop {
+    display: none;
+  }
+}
+
+@media (min-width: 770px) {
+  .mobile {
+    display: none;
+  }
+
+  .mobile_main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem !important;
+  }
+}
