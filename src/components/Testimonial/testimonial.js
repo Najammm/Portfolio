@@ -1,37 +1,39 @@
 import React from "react";
 import styles from "./testimonial.module.css";
 import Image from "next/image";
-import Client1 from "../../../public/Images/client1.jpg";
+import Client1 from "../../../public/Images/client1.png";
+import Client2 from "../../../public/Images/client2.png";
+import Client3 from "../../../public/Images/client3.png";
 import { Row, Col } from "antd";
 import { MdOutlineRateReview } from "react-icons/md";
 
 function Testimonial() {
   const testimonials = [
     {
-      name: "Joh Lee",
-      position: "Ceo XYZ",
+      name: "Hiroshi Murakami",
+      position: "DCO, IPS",
       description:
-        "I thought it was impossible to make a website as beautiful as our product, but Hamza proved me wrong.",
+        "Saqib has been an excellent developer across multiple projects, handling front-end, back-end, and app development with precision. His work is high-quality, delivered on time, and always meets expectations. Highly recommend him for any development needs!",
       image: Client1,
     },
     {
-      name: "Joh Lee",
-      position: "Ceo XYZ",
+      name: "Ghias Ali",
+      position: "CTO, Trisage Solutions",
       description:
-        "I thought it was impossible to make a website as beautiful as our product, but Hamza proved me wrong.",
-      image: Client1,
+        "Working with Saqib has been a great experience! His expertise in web and app development, along with his commitment to quality and timely delivery, makes him stand out. A reliable and skilled developer—highly recommend!",
+      image: Client2,
     },
     {
-      name: "Joh Lee",
-      position: "Ceo XYZ",
+      name: "Ethan Walker",
+      position: "Manager, TechNova",
       description:
-        "I thought it was impossible to make a website as beautiful as our product, but Hamza proved me wrong.",
-      image: Client1,
+        "Saqib is an exceptional developer with a strong command over front-end and back-end technologies. His attention to detail and problem-solving skills ensure every project is delivered flawlessly. Highly recommended for any development work!",
+      image: Client3,
     },
   ];
 
   return (
-    <div className="myContainer">
+    <div id="testimonials" className="myContainer">
       <div className={styles.testimonial_main}>
         <div>
           <p className="text">What my Client's say</p>
@@ -43,24 +45,25 @@ function Testimonial() {
         <Row className={styles.testimonial_section}>
           {testimonials.map((testimonial) => (
             <Col xl={7} lg={7} className={styles.testimonial_single}>
-              <MdOutlineRateReview className={styles.testimonial_icon} />
+              <p className={styles.testimonial_icon}>"</p>
               <p className={styles.description}>{testimonial.description}</p>
               <div
                 style={{
                   display: "flex",
                   justifyContent: "space-between",
+                  alignItems: "center",
                 }}
               >
                 <div>
                   <span className={styles.name}>{testimonial.name}</span>
-                  <p>{testimonial.position}</p>
+                  <p style={{ margin: "0" }}>{testimonial.position}</p>
                 </div>
                 <div>
                   <Image
                     src={testimonial.image}
                     width={60}
                     height={60}
-                    style={{ borderRadius: "30px" }}
+                    className={styles.image}
                   />
                 </div>
               </div>

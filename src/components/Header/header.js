@@ -83,8 +83,8 @@ function Header() {
                     <Link className={styles.menu_links} href="#project">
                       Projects
                     </Link>
-                    <Link className={styles.menu_links} href="#contact">
-                      Contact
+                    <Link className={styles.menu_links} href="#testimonials">
+                      Testimonials
                     </Link>
                   </Nav>
                 </Offcanvas.Body>
