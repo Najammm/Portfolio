@@ -11,7 +11,7 @@ function Testimonial() {
   const testimonials = [
     {
       name: "Hiroshi Murakami",
-      position: "DCO, IPS",
+      position: "DOS, IPS",
       description:
         "Saqib has been an excellent developer across multiple projects, handling front-end, back-end, and app development with precision. His work is high-quality, delivered on time, and always meets expectations. Highly recommend him for any development needs!",
       image: Client1,
