@@ -24,12 +24,14 @@ function About() {
           <p className="text">Introduction</p>
           <h2 className="title">Overview.</h2>
           <p className={styles.text2}>
-            I'm a skilled software developer with experience in TypeScript and
-            JavaScript, and expertise in frameworks like React, Node.js, and
-            Next js. I'm a quick learner and collaborate closely with clients to
-            create efficient, scalable, and user-friendly solutions that solve
-            real-world problems. Let's work together to bring your ideas to
-            life!
+            I'm a Passionate Full Stack Developer with expertise in JavaScript,
+            TypeScript, React, Next.js, and Node.js—turning ideas into powerful,
+            high-performing digital experiences. From crafting sleek, intuitive
+            frontends to architecting scalable, efficient backends, I thrive on
+            solving complex challenges and delivering seamless user
+            interactions. A fast learner and a creative problem-solver, I
+            collaborate closely with clients to build innovative, future-ready
+            solutions that make an impact.
           </p>
         </div>
         <Row className={styles.sections_main}>

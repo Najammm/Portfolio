@@ -48,7 +48,7 @@ function Header() {
                 <span>
                   <RxDividerVertical />
                 </span>
-                MERN STACK DEVELOPER
+                Full STACK DEVELOPER
               </Navbar.Brand>
               <Navbar.Toggle
                 className={styles.icon}

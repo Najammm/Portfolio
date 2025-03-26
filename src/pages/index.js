@@ -14,7 +14,7 @@ function index() {
       <Work />
       <Project />
       <Testimonial />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }

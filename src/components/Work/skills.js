@@ -17,37 +17,37 @@ function Skills() {
         <Row className={styles.section}>
           <Col xl={3} lg={4} md={4} xs={9} className={styles.skills}>
             <GrHtml5 className={styles.skills_icons} />
-            <p className={styles.skills_text}>90%</p>
+            <p className={styles.skills_text}>95%</p>
           </Col>
           <Col xl={3} lg={4} md={4} xs={9} className={styles.skills}>
             <IoLogoCss3 className={styles.skills_icons} />
-            <p className={styles.skills_text}>10%</p>
+            <p className={styles.skills_text}>90%</p>
           </Col>
           <Col xl={3} lg={4} md={4} xs={9} className={styles.skills}>
             <FaNodeJs className={styles.skills_icons} />
-            <p className={styles.skills_text}>50%</p>
+            <p className={styles.skills_text}>70%</p>
           </Col>
           <Col xl={3} lg={4} md={4} xs={9} className={styles.skills}>
             <FaReact className={styles.skills_icons} />
-            <p className={styles.skills_text}>65%</p>
+            <p className={styles.skills_text}>85%</p>
           </Col>
         </Row>
         <Row className={styles.section}>
           <Col xl={3} lg={4} md={4} xs={9} className={styles.skills}>
             <SiMongodb className={styles.skills_icons} />
-            <p className={styles.skills_text}>47%</p>
+            <p className={styles.skills_text}>80%</p>
           </Col>
           <Col xl={3} lg={4} md={4} xs={9} className={styles.skills}>
             <SiPostman className={styles.skills_icons} />
-            <p className={styles.skills_text}>21%</p>
+            <p className={styles.skills_text}>95%</p>
           </Col>
           <Col xl={3} lg={4} md={4} xs={9} className={styles.skills}>
             <FaWordpress className={styles.skills_icons} />
-            <p className={styles.skills_text}>84%</p>
+            <p className={styles.skills_text}>95%</p>
           </Col>
           <Col xl={3} lg={4} md={4} xs={9} className={styles.skills}>
             <FaGithub className={styles.skills_icons} />
-            <p className={styles.skills_text}>12%</p>
+            <p className={styles.skills_text}>90%</p>
           </Col>
         </Row>
       </div>

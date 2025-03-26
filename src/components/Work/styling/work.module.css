@@ -8,10 +8,4 @@
   .mobile {
     display: none;
   }
-
-  .mobile_main {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem !important;
-  }
 }
